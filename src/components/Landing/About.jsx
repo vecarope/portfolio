@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 const About = () => {
   return (
     <>
@@ -7,24 +5,16 @@ const About = () => {
         <div className="col-span-4" id="about-me">
           <div className="my-10 py-18 px-5 md:p-40 md:pr-4">
             <div className="group relative mx-6 w-250 h-150 rounded-md border bg-purple-400 text-white py-10 px-8 shadow-lg transform hover:scale-105 transition duration-700 ease-out">
-              <h3 className=" text-lg md:text-2xl uppercase">Hola! </h3>
               <p className="mt-2 font-sans text-3xl font-bold">
                 Soy Verónica...
               </p>
-              <p className="md:text-lg mt-4 text-justify">
-                Licenciada en artes visuales y gestora cultural, desarrolladora
-                Front-End y Python en constante aprendizaje desde el 2021.
-                Responsable y resolutiva al enfrentar nuevos desafíos, adaptable
-                al cambio, me interesa ser parte de equipos multidisciplinarios.
-                Mi gran motivación es trabaja para la gente, aportando e
-                implementando soluciones a sus problemáticas. Conocimientos en
-                Javascripts, Vue.JS, React.JS, Angular, Python, SQL y Django.
-                Soy constante y creativa, aportando ideas e implementando
-                acciones innovadoras y desafiantes. Curiosa de las culturas,
-                tecnologías, diseño, arte y fotografía. Soy constante y
-                creativa, aportando ideas e implementando acciones innovadoras y
-                desafiantes. Curiosa de las culturas, tecnologías, diseño, arte
-                y fotografía.
+              <p className="md:text-xl mt-4 text-justify">
+              Desarrolladora Front-End, soy una persona resolutiva al enfrentar nuevos desafíos, y me adapto fácilmente a los cambios. Me
+interesa formar parte de equipos multidisciplinarios y mi mayor motivación es trabajar para la gente, aportando
+soluciones innovadoras a sus problemáticas.
+Tengo experiencia en el uso de <strong className="text-[#FBCA1B]">Javascript, React.js , Angular, Python, SQL y Django</strong>. Mi creatividad y constancia me
+llevan a aportar ideas y a implementar soluciones desafiantes e innovadoras. Soy curiosa y apasionada por las culturas, las
+tecnologías, el diseño, el arte y la fotografía, me gusta la vida outdoor, viajar y conocer nuevos lugares, y si son apartados, para desconectarme por un rato, aun mejor. Amante de los perros y de un buen café, mas si es mientras codeo...
               </p>
 
               <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center rounded-md bg-purple-500 px-10 opacity-0 transition group-hover:opacity-100">

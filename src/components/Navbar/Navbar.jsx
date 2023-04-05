@@ -86,6 +86,18 @@ const Navbar = () => {
             >
               Galeria
             </Link>
+            <Link
+              activeClass="active"
+              to="footer"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="flex text-teal-400  text-2xl hover:underline hover:text-yellow-300 hover:decoration-wavy
+                    cursor-pointer transition-colors duration-300"
+            >
+              Contacto
+            </Link>
           </div>
         </nav>
       </div>

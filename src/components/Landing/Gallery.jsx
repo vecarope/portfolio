@@ -49,33 +49,21 @@ const Gallery = () => {
                 }}
               >
                 <h2 className="text-md md:text-3xl text-[#414be3]  xl:text-5xl">
-                  Galeria <span className="font-bold">Fotografica</span>
+                  Galería <span className="font-bold">Fotográfica</span>
                 </h2>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="px-38 mx-19 bg-slate-50">
-        <div className="flex items-center justify-center mx-12 md:mx-28 ">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+      <div className="columns-2 md:columns-3 lg:columns-4 mx-10">
             {dataPhotos.map((element) => (
-              <div
-                key={element.id}
-                className="mt-8 rounded-xl bg-white p-2 w-full h-full "
-              >
-                <div className="group relative flex-col overflow-hidden rounded-xs  border-4 border-gray-600">
-                  <div className="absolute inset-0 h-full w-full group-hover:bg-rose-400/20 scale-75 "></div>
                   <img
                     src={element.img}
-                    className="h-auto w-full object-contain"
+                    className="mb-4"
                     alt={element.id}
                   />
-                </div>
-              </div>
             ))}
-          </div>
-        </div>
       </div>
     </>
   );

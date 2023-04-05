@@ -3,7 +3,7 @@ export const education = [
     institute:'Programa Talento Digital',
     date:'En curso',
     type:'Bootcamp',
-    carrer:'Javascript full Stack',
+    carrer:'Full Stack Javascript' ,
   },
   { id:2,
     institute:'Programa SENCE',

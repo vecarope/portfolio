@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 const Hero = () => {
   return (
     <>
@@ -15,12 +13,13 @@ const Hero = () => {
                   </span>
                 </h2>
                 <p className="text-4xl text-[#FBCA1B]">
-                  Desarrolladora Web Front-end
-                </p>
+                  Desarrolladora Web 
+                </p >
+                <p className="text-3xl text-[#FBCA1B]">Fron-End</p>
               </div>
               <div className="mt-10 flex flex-col items-center md:flex-row">
                 <button
-                  onClick={() => window.open("/src/doc/cv.Caro.pdf", "_blank")}
+                  onClick={() => window.open("/src/doc/veronicaCaro-mar23.pdf", "_blank")}
                   className="btn group inline-flex items-center text-2xl  text-white"
                 >
                   Descargar CV
@@ -42,20 +41,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="">
-              <motion.div
-                animate={{ x: -100 ,
-                rotate:360 }}
-                transition={{ duration: 4 }}
-                class="flex flex-col items-center justify-center col-span-1 scale-75"
-              >
-                <div class="relative p-5 scale-75">
-                  <div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-teal-100"></div>
-                  <img
-                    class="relative z-20 w-full rounded-full"
-                    src="/public/img/foto.png"
-                  />
-                </div>
-              </motion.div>
+              <img src="/public/img/ilustra.png" alt="ilus"/>
             </div>
           </div>
         </div>

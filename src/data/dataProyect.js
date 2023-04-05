@@ -12,10 +12,10 @@ const proyect = [
   },
   {
     id: 2,
-    type: "JavaScript",
-    librery: "React",
-    css:"Tailwind",
-    name:'Pagina web', 
+    type: "Typescript",
+    librery: "Angular",
+    css:"Material",
+    name:'Plataforma Financiera', 
     img: "../../../public/proyect/cuppon.png",
     desc: "pagina web ",
     repo: "www.github.com",
@@ -26,11 +26,11 @@ const proyect = [
     type: "JavaScript",
     librery: "React",
     css:"Tailwind",
-    name:'Pagina web', 
-    img: "../../../public/proyect/cuppon.png",
-    desc: "pagina web",
+    name:'Plataforma DevSafio', 
+    img: "../../../public/proyect/devsafio.png",
+    desc: "Plataforma para la busqueda de empleo TI, construida en conjunto a un equipo de la Incubadora Desafio Latam.",
     repo: "www.github.com",
-    link: "www.paginaweb.com",
+    link: "https://ctd5-frontend.vercel.app/",
   }
 ];
 

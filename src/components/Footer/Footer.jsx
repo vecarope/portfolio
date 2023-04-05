@@ -3,7 +3,7 @@ import { Link as SmoothLink } from 'react-scroll';
 const Index = () => {
   return (
     <>
-    <footer className="relative mt-20 bg-purple-900 px-4 pt-20">
+    <footer className="relative mt-20 bg-purple-900 px-4 pt-20" id='footer'>
       <div className="absolute -top-10 left-1/2 h-16 w-16 -translate-x-1/2 rounded-xl border-4 border-green-300 bg-white p-2">
         <SmoothLink  
             activeClass="active"
@@ -18,9 +18,14 @@ const Index = () => {
         />
         </SmoothLink>
       </div>
+      <div className=" grid grid-cols-2 ml-20 w-15">
+        <div className="grid-col-1">
+        <p className="text-white text-6xl font-bold">Hablemos...</p>
+        <p className="text-yellow-300 text-2xl">Si quieres saber más sobre mis proyectos y skills,<br/> contactame a través de las siguientes plataformas. </p>
+      </div>
       <nav
         aria-label="Footer Navigation"
-        className="mx-auto mb-10 flex item-center max-w-lg flex-col gap-6 text-center sm:flex-row sm:text-left"
+        className="my-auto flex item-center max-w-lg flex-row gap-6 text-center sm:flex-row sm:text-left"
       >
         <a
           className="text-white text-xl  hover:underline hover:text-yellow-300 hover:decoration-wavy"
@@ -61,6 +66,7 @@ const Index = () => {
           vecarope@gmail.com
         </a>
       </nav>
+      </div>
       <p className="py-10 text-center text-gray-300">
         © 2023 | Diseñado con 💜 por vecarope
       </p>

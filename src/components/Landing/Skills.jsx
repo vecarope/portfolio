@@ -7,7 +7,7 @@ const Skills = () => {
   const isInView = useInView(ref, { once: true });
   return (
     <>
-      <div className="grid lg:grid-cols-5 lg:grid-rows-1 h-screen w-screen mt-4" id="skills" ref={ref}>
+      <div className="grid lg:grid-cols-8 lg:grid-rows-1 h-screen w-screen mt-4" id="skills" ref={ref}>
         <div className="grid-span-2">
           <div className="hidden md:block relative h-96 w-96">
             <div className="h-56 w-56 text-amber-400 absolute -z-10 ml-20 left-20">
@@ -52,20 +52,16 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="grid md:col-start-2 mx-10 md:col-end-5 md:gap-8 md:ml-20 ">
-          <div className="container relative md:w-350 transform hover:scale-105 transition duration-700 ease-out">
+        <div className="grid lg:col-start-3 ml-10 lg:col-end-8 md:gap-10 md:ml-20 ">
+          <div className="container relative md:w-390 transform hover:scale-110 transition duration-700 ease-out">
             <div className="absolute -right-2 -bottom-3 bg-[#FBCA1B] h-full w-full "></div>
             <div className="relative bg-[#714881] text-white p-8 space-y-6 border-4 border-gray-700">
-              <div className="md:h-2 md:w-20 bg-[#FBCA1B] "></div>
+              <div className="md:h-2 md:w-40 bg-[#FBCA1B] "></div>
               <div className="text-3xl md:text-5xl font-bold text-white">Front-End</div>
               <p className="leading-snug text-white text-md md:text-lg text-justify">
-                Descriptyion your product here. menggomballah seperlunya agar
-                meraka minat terhadap produk anda
-                Descriptyion your product here. menggomballah seperlunya agar
-                meraka minat terhadap produk andaDescriptyion your product here. menggomballah seperlunya agar
-                meraka minat terhadap produk anda
+              Tengo sólidos conocimientos en Javascript y he trabajado con React y Angular para crear aplicaciones web complejas y optimizadas. En React, he creado componentes reutilizables y he implementado gestión de estado y APIs externas. En Angular, he desarrollado Single Page Applications. Además, tengo experiencia en el uso de Material, Bootstrap y Tailwind para crear diseños atractivos y funcionales con un enfoque en la usabilidad y la experiencia del usuario.
               </p>
-              <div className="grid grid-cols-6 md:mx-10 md:grid-cols-6">
+              <div className="grid grid-cols-12 md:mx-10 md:grid-cols-6">
                 {dataSkills
                   .filter( element => element.type === 1 )
                   .map( element => (
@@ -76,18 +72,15 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="container relative md:w-350  my-1 transform hover:scale-105 transition duration-700 ease-out">
+          <div className="container relative md:w-390 my-1 transform hover:scale-110 transition duration-700 ease-out">
             <div className="absolute -right-2 -bottom-3 bg-[#FBCA1B] h-full w-full "></div>
             <div className="relative bg-[#7752ad] text-white p-8 space-y-6 border-4 border-gray-700">
-              <div className="h-2 w-20 bg-[#FBCA1B] "></div>
+              <div className="h-2 w-40 bg-[#FBCA1B] "></div>
               <div className="text-3xl md:text-5xl font-bold text-white">Back-End</div>
               <p className="leading-snug text-white text-md md:text-lg text-justify">
-              Descriptyion your product here. menggomballah seperlunya agar
-                meraka minat terhadap produk anda Descriptyion your product here. menggomballah seperlunya agar
-                meraka minat terhadap produk anda Descriptyion your product here. menggomballah seperlunya agar
-                meraka minat terhadap produk anda
+              Tengo experiencia en manejo de JWT, migraciones de bases de datos y conexiones con bases de datos relacionales. Además, tengo conocimientos en la definición de estructuras de datos y su implementación en aplicaciones web y servicios API. También he trabajado en la creación de endpoints para permitir a los clientes interactuar con los datos almacenados en la base de datos a través de solicitudes HTTP.
               </p>
-              <div className="grid grid-cols-6 md:mx-10 md:grid-cols-6">
+              <div className="grid grid-cols-12 md:mx-10 md:grid-cols-6">
                 {dataSkills
                   .filter( element => element.type === 2 )
                   .map( element => (
@@ -98,18 +91,17 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="container relative md:w-350 my-1 transform hover:scale-105 transition duration-700 ease-out">
+          <div className="container relative md:w-390 mt-1 mb-6 transform hover:scale-110 transition duration-700 ease-out">
             <div className="absolute -right-2 -bottom-3 bg-[#FBCA1B] h-full w-full "></div>
             <div className="relative bg-[#3a9a9f] text-white p-4 md:p-8 space-y-6 border-4 border-gray-700">
-              <div className="h-2 w-20 bg-[#FBCA1B] "></div>
+              <div className="h-2 w-40 bg-[#FBCA1B] "></div>
               <div className="text-3xl md:text-5xl font-bold text-white">Herramientas</div>
               <p className="leading-snug text-white text-md md:text-lg text-justify">
-                Descriptyion your product here. menggomballah seperlunya agar
-                meraka minat terhadap produk anda Descriptyion your product here. menggomballah seperlunya agar
-                meraka minat terhadap produk anda Descriptyion your product here. menggomballah seperlunya agar
-                meraka minat terhadap produk anda
+              Tengo experiencia en el uso de herramientas para desarrollar proyectos de software eficientemente, como Git y GitHub para controlar el versionamiento del código y colaborar con otros desarrolladores. Manejo en Docker  para crear y administrar contenedores de aplicaciones.
+
+En el uso de PgAdmin para interactuar con bases de datos PostgreSQL. Auth0 y Firebase para la autenticación y autorización de usuarios. También he trabajado con Figma para diseñar interfaces de usuario y con Jira para la gestión de proyectos ágiles.
               </p>
-              <div className="grid grid-cols-6 gap-2 md:gap-4 md:mx-10 md:grid-cols-7">
+              <div className="grid grid-cols-12 gap-2 md:gap-5 md:mx-10 md:grid-cols-7">
                 {dataSkills
                   .filter( element => element.type === 3 )
                   .map( element => (
