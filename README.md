@@ -3,7 +3,7 @@
 
 ## Link:https://port-vecarope.vercel.app/
 
-## TECNOLOGÍA
+### TECNOLOGÍA
 - **REACT**   
 - **TAILWIND**  
 - **FLOWBITE**
@@ -11,14 +11,14 @@
 - **VITE**    
 
 
-## SECCIONES 
+### SECCIONES 
 + **SOBRE MI**  
 + **EXPERIENCIA LABORAL Y FORMACION EDUCATIVA** 
 + **MIS SKILLS**    
 + **PROYECTOS** 
 + **GALERIA FOTOGRAFICA**               
     
-## INSTALACION
+### INSTALACION
     
     Comandos de instalacion:
 ```
