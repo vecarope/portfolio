@@ -19,7 +19,7 @@ const Hero = () => {
               </div>
               <div className="mt-10 flex flex-col items-center md:flex-row">
                 <button
-                  onClick={() => window.open("/src/doc/veronicaCaro-mar23.pdf", "_blank")}
+                  onClick={() => window.open("/doc/veronicaCaro-mar23.pdf", "_blank")}
                   className="btn group inline-flex items-center text-2xl  text-white"
                 >
                   Descargar CV
