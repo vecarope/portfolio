@@ -25,7 +25,7 @@ tecnologías, el diseño, el arte y la fotografía, me gusta la vida outdoor, vi
         </div>
         <div className="col-span-2">
           <div className="item-center my-12 mr-10 scale-75">
-            <div class="hidden sm:block h-28 w-28 text-gray-300 absolute a-z-10 -right-20 -bottom-20">
+            <div className="hidden sm:block h-28 w-28 text-gray-300 absolute a-z-10 -right-20 -bottom-20">
               <svg
                 id="patternId"
                 width="100%"
@@ -57,16 +57,16 @@ tecnologías, el diseño, el arte y la fotografía, me gusta la vida outdoor, vi
                 />
               </svg>
             </div>
-            <div class="flex-col items-center justify-center col-span-1 hidden lg:block">
-              <div class="sticky p-5 ">
-                <div class="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-pink-100"></div>
+            <div className="flex-col items-center justify-center col-span-1 hidden lg:block">
+              <div className="sticky p-5 ">
+                <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-pink-100"></div>
                 <img
-                  class="relative z-20 w-full rounded-full"
-                  src="/public/img/perfil.jpeg"
+                  className="relative z-20 w-full rounded-full"
+                  src={"/img/perfil.jpeg"}
                 />
               </div>
             </div>
-            <div class="hidden sm:block h-28 w-28 text-gray-300 absolute a-z-10 -right-20 -bottom-20">
+            <div className="hidden sm:block h-28 w-28 text-gray-300 absolute a-z-10 -right-20 -bottom-20">
               <svg
                 id="patternId"
                 width="100%"

@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div
-      class="flex flex-col items-center justify-center "
+      className="flex flex-col items-center justify-center "
       x-cloak
       x-data="appData()"
       x-init="appInit()"
@@ -26,7 +26,7 @@ const Navbar = () => {
               <h3 className="text-3xl font-medium text-blue-500">
                 <img
                   className="h-10 w-10 object-cover "
-                  src="/public/img/logo.png"
+                  src={"/img/logo.png"}
                   alt="Store Logo"
                   
                 />

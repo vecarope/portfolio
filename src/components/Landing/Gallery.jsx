@@ -59,6 +59,7 @@ const Gallery = () => {
       <div className="columns-2 md:columns-3 lg:columns-4 mx-10">
             {dataPhotos.map((element) => (
                   <img
+                    key={element.id}
                     src={element.img}
                     className="mb-4"
                     alt={element.id}
