@@ -13,7 +13,7 @@ const Index = () => {
             offset={-70}
             duration={500}>
         <img className="h-full object-contain"
-          src="/public/img/logo.png"
+          src={"/img/logo.png"}
           alt="logo"
         />
         </SmoothLink>
