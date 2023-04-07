@@ -22,7 +22,8 @@
     
     Comandos de instalacion:
 ```
-npm install
+npm install 
+cd portfolio
 npm run dev 
 
 ```
