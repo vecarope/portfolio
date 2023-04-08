@@ -1,19 +1,17 @@
-import { dataPhotos } from "../../data/dataPhoto";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import SkillCards from "./SkillCards.jsx";
 
-const Gallery = () => {
+const SkillsB = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
+
   return (
     <>
-      <div className="container flex items-center" ref={ref}>
-        <div className=" col-span-1 placeholder:md:col-span-2 ml-20 mt-10">
-          <div className="hidden md:block relative h-96 w-96 mr-0">
-            <div
-              className="h-56 w-56 text-amber-400 absolute -z-10 left-20 top-10"
-              id="gallery"
-            >
+      <div className="grid grid-cols-3 gap-4" id="skills" ref={ref}>
+        <div className="grid-span-2">
+          <div className="hidden md:block relative h-96 w-96">
+            <div className="h-56 w-56 text-amber-400 absolute -z-10 ml-20 left-20">
               <svg
                 id="patternId"
                 width="100%"
@@ -51,31 +49,19 @@ const Gallery = () => {
                   transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
                 }}
               >
-                <h2 className="text-md md:text-3xl text-[#414be3]  xl:text-5xl">
-                  Galería <span className="font-bold">Fotográfica</span>
+                <h2 className="text-3xl text-[#414be3] sm:text-4xl xl:text-5xl">
+                  Mis <span className="font-bold">Skills</span>
                 </h2>
               </div>
             </div>
           </div>
         </div>
-        <div className="grid-cols-3 text-4xl">
-          <p className="text-blue-600 tracking-wide line-clamp-3 leading-relaxed overline">
-            Una de las cosas que mas disfruto, <br/> es la fotografía,<br/>al igual que hacer galerias resposivas!
-          </p>
+        <div className="col-span-2 mr-10">
+          <SkillCards />
         </div>
-      </div>
-      <div className="columns-2 md:columns-3 lg:columns-4 mx-10">
-        {dataPhotos.map((element) => (
-          <img
-            key={element.id}
-            src={element.img}
-            className="mb-4"
-            alt={element.id}
-          />
-        ))}
       </div>
     </>
   );
 };
 
-export default Gallery;
+export default SkillsB;

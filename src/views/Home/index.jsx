@@ -6,7 +6,7 @@ const HomePage = () => {
     <Landing.Hero/>
     <Landing.About/>
     <Landing.TimeLine/>
-    <Landing.Skills/>
+    <Landing.SkillsB/>
     <Landing.Card/>
     <Landing.Gallery/>
     </>

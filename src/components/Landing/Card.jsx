@@ -7,8 +7,8 @@ const Card = () => {
   const isInView = useInView(ref, { once: true });
   return (
     <>
-        <div className="grid grid-cols-4 md:grid-cols-8 mt-30 ml-10" ref={ref}>
-            <div className="hidden md:block relative h-96 w-96 mr-0 mt-15 pt-15">
+        <div className="grid grid-cols-4 md:grid-cols-8 mt-5 ml-10" ref={ref}>
+            <div className="hidden md:block relative h-96 w-96 mr-0 mt-5 pt-15">
               <div className="h-56 w-56 text-amber-400 absolute -z-10 ml-10 left-20 top-20" id="proyect">
                 <svg
                   id="patternId"
@@ -58,7 +58,7 @@ const Card = () => {
               </div>
             </div>
           </div> 
-      <div className="container flex justify-center flex-col md:flex-row mx-1 my-10 md:mx-16">
+      <div className="container flex justify-center flex-col md:flex-row mx-1 md:mx-16">
           {proyect.map((element) => (
             <div  key={element.id} className="md:px-2 scale-75 w-auto gap-2 transform hover:scale-90 transition duration-700 ease-out">
               <div className="absolute -right-2 -bottom-3 bg-[#FBCA1B] h-full w-full "></div>

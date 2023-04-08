@@ -9,7 +9,7 @@ export const experience = [
   {
     id:3,
     rol:'Elaboración y asesoría Planes  Municipales de Cultura',
-    company:'Municipalidad De Fresia, Maullin, Constitución, LLanquihue, Sagrada Familia, Curicó, Colbún ',
+    company:'Municipalidad De Fresia, Maullin,Constitución, LLanquihue, Sagrada Familia, Curicó, Colbún ',
     date:' Jun 2014 - Abr 2022 ',
     desc:'Elaborar planes municipales de Cultura. Organizar encuentros y diagnósticos participativos con la comunidad. Coordinar reuniones y planificación con equipos municipales. Implementar catastros de artistas locales, infraestructura cultural y encuestas. Analizar y planificar estrategias para el desarrollo cultural de las comunas.'
   },

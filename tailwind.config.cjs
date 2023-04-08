@@ -39,7 +39,7 @@ module.exports = {
     }
   },
   plugins: [
-    require('flowbite/plugin'), 
+    require('flowbite/plugin'),
     require('tw-elements/dist/plugin'),
     require('@tailwindcss/forms')
   ]

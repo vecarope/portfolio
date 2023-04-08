@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div
       className="flex flex-col items-center justify-center "
-      x-cloak
+      x-cloak="true"
       x-data="appData()"
       x-init="appInit()"
     >
@@ -14,7 +14,7 @@ const Navbar = () => {
             backdrop-blur-md shadow-lg w-full
             fixed top-0 left-0 right-0 z-10"
         >
-          <div class="flex items-center">
+          <div className="flex items-center">
             <Link
               className="cursor-pointer"
               to="hero"
@@ -34,7 +34,7 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <div class="items-center hidden space-x-8 lg:flex">
+          <div className="items-center hidden space-x-8 lg:flex">
             <Link
               activeClass="active"
               to="about-me"

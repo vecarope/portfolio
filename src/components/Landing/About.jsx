@@ -1,20 +1,22 @@
+
+
 const About = () => {
   return (
     <>
       <div className="grid grid-cols-3 lg:grid-cols-6 lg:grid-rows-1 w-screen">
         <div className="col-span-4" id="about-me">
           <div className="my-10 py-18 px-5 md:p-40 md:pr-4">
-            <div className="group relative mx-6 w-250 h-150 rounded-md border bg-purple-400 text-white py-10 px-8 shadow-lg transform hover:scale-105 transition duration-700 ease-out">
-              <p className="mt-2 font-sans text-3xl font-bold">
+            <div className="group relative mx-6 w-250 h-150 rounded-md border bg-[#b18bfb] text-white py-10 px-8 shadow-lg transform hover:scale-105 transition duration-700 ease-out">
+              <p className="mt-2 font-sans text-4xl font-bold">
                 Soy Verónica...
               </p>
-              <p className="md:text-xl mt-4 text-justify">
-              Desarrolladora Front-End, soy una persona resolutiva al enfrentar nuevos desafíos, y me adapto fácilmente a los cambios. Me
+              <p className="md:text-2xl mt-4 text-justify">
+              <strong className="text-[#ffdb58] text-3xl  bg-[#9340ff]">Desarrolladora Front-End</strong>, soy resolutiva al enfrentar nuevos desafíos, y me adapto fácilmente a los cambios. Me
 interesa formar parte de equipos multidisciplinarios y mi mayor motivación es trabajar para la gente, aportando
 soluciones innovadoras a sus problemáticas.
-Tengo experiencia en el uso de <strong className="text-[#FBCA1B]">Javascript, React.js , Angular, Python, SQL y Django</strong>. Mi creatividad y constancia me
-llevan a aportar ideas y a implementar soluciones desafiantes e innovadoras. Soy curiosa y apasionada por las culturas, las
-tecnologías, el diseño, el arte y la fotografía, me gusta la vida outdoor, viajar y conocer nuevos lugares, y si son apartados, para desconectarme por un rato, aun mejor. Amante de los perros y de un buen café, mas si es mientras codeo...
+Tengo experiencia en el uso de <strong className="text-[#ffdb58] text-3xl bg-[#9340ff]">Javascript, React.js , Angular, Python, SQL y Django</strong>. Mi creatividad y constancia me
+llevan a aportar ideas y a implementar soluciones desafiantes e innovadoras.<strong className="text-[#ffdb58]"> Soy curiosa y apasionada por las culturas, las
+tecnologías, el diseño, las artes y la fotografía ,</strong> me gusta la vida outdoor, viajar y conocer nuevos lugares.<strong className="text-[#ffdb58]"> Adoradora de perros y de un buen café ,</strong> mas si es mientras codeo...
               </p>
 
               <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center rounded-md bg-purple-500 px-10 opacity-0 transition group-hover:opacity-100">
@@ -43,7 +45,7 @@ tecnologías, el diseño, el arte y la fotografía, me gusta la vida outdoor, vi
                     <rect x="0" y="0" width="100%" height="100%" fill="none" />
                     <path
                       d="M11 6a5 5 0 01-5 5 5 5 0 01-5-5 5 5 0 015-5 5 5 0 015 5"
-                      stroke-width="1"
+                      strokeWidth="1"
                       stroke="none"
                       fill="currentColor"
                     />
@@ -84,7 +86,7 @@ tecnologías, el diseño, el arte y la fotografía, me gusta la vida outdoor, vi
                     <rect x="0" y="0" width="60%" height="60%" fill="none" />
                     <path
                       d="M11 6a5 5 0 01-5 5 5 5 0 01-5-5 5 5 0 015-5 5 5 0 015 5"
-                      stroke-width="1"
+                      strokeWidth="1"
                       stroke="none"
                       fill="currentColor"
                     />

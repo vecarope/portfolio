@@ -20,9 +20,9 @@ const Hero = () => {
               <div className="mt-10 flex flex-col items-center md:flex-row">
                 <button
                   onClick={() => window.open("/doc/veronicaCaro-mar23.pdf", "_blank")}
-                  className="btn group inline-flex items-center text-2xl  text-white"
+                  className="btn group inline-flex items-center text-3xl  text-white"
                 >
-                  Descargar CV
+                  Descarga mi CV
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="group-hover:translate-x-2 ml-4 h-6 w-6 transition-transform"
