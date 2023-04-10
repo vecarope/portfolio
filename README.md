@@ -18,7 +18,7 @@
 + **PROYECTOS** 
 + **GALERIA FOTOGRAFICA**               
     
-### INSTALACION
+
     
     Comandos de instalacion:
 ```
