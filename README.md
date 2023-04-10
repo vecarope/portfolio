@@ -20,7 +20,7 @@
     
 
     
-    Comandos de instalacion:
+## Comandos de instalacion:
 ```
 npm install 
 cd portfolio
