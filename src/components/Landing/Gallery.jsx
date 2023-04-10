@@ -60,7 +60,7 @@ const Gallery = () => {
         </div>
         <div className="grid-cols-3 text-4xl">
           <p className="text-blue-600 tracking-wide line-clamp-3 leading-relaxed overline">
-            Una de las cosas que mas disfruto, <br/> es la fotografía,<br/>al igual que hacer galerias resposivas!
+            Una de las cosas que mas disfruto, <br/> es la fotografía,<br/>al igual que hacer galerias!
           </p>
         </div>
       </div>
