@@ -13,7 +13,7 @@ const SkillCards = () => {
       type:1,
       label: "Front-End",
       value: "Front-end",
-      desc: `Tengo sólidos conocimientos en Javascript y he trabajado con  React y Angular para crear aplicaciones web complejas y optimizadas. En React, he creado componentes reutilizables y he implementado gestión de estado y APIs externas. En Angular, he desarrollado Single Page Applications. Además, tengo experiencia en el uso de Material, Bootstrap y Tailwind para crear diseños atractivos y funcionales con un enfoque en la usabilidad y la experiencia del usuario.`,
+      desc: `Tengo sólidos conocimientos en Javascript, he trabajado con  React y Angular para crear aplicaciones web complejas y optimizadas. En React, he creado componentes reutilizables y he implementado gestión de estado y APIs externas. En Angular, he desarrollado Single Page Applications. Además, tengo experiencia en el uso de Material, Bootstrap y Tailwind para crear diseños atractivos y funcionales con un enfoque en la usabilidad y la experiencia del usuario.`,
     },
     {
       type:2,
@@ -33,15 +33,15 @@ const SkillCards = () => {
   ];
   return (
     <Tabs id="custom-animation" value="html">
-    <TabsHeader className="bg-[#23c8a1] border-[#f9cc2a] ">
+    <TabsHeader className="bg-[#18b19d] text-[#065e5a]">
       {data.map(({ label, value }) => (
-        <Tab key={value} value={value}  className="text-2xl text-bold">
+        <Tab key={value} value={value}  className="text-3xl text-bold">
           {label}
         </Tab>
       ))}
     </TabsHeader>
     <TabsBody
-    className="bg-[#328b85] border-b-8 border-r-8 border-[#f9cc2a]  "
+    className="bg-[#469d9a] mt-1 "
       animate={{
         initial: { y: 250 },
         mount: { y: 0 },
@@ -49,15 +49,15 @@ const SkillCards = () => {
       }}
     >
       {data.map(({ value, desc, type }) => (
-        <TabPanel key={value} value={value} className="text-white text-2xl m-5 text-center h-auto w-fit" >
+        <TabPanel key={value} value={value} className="border-b-8 border-r-8 border-[#f9cc2a]  text-white text-2xl text-center h-auto w-fit" >
           {desc}
           <div className="grid grid-cols-12 gap-2 md:gap-5 md:mx-8 my-5 md:grid-cols-7 items-center">
         {dataSkills
                   .filter( element => element.type === type )
                   .map( element => (
-                    <div className="md:w-20 items-center" key={element.id}>
+                    <div className="md:w-40" key={element.id}>
                       <img src={element.img} alt={element.language} className="md:scale-75" />
-                      <p>{element.language}</p>
+                      <p className="text-center">{element.language}</p>
                     </div>
                   ))}
           </div>

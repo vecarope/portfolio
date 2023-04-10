@@ -4,10 +4,10 @@ const proyect = [
     type: "JavaScript",
     librery: "React",
     css:"Tailwind",
-    name:'Pagina web', 
+    name:'ViewFinder', 
     img: "/proyect/cuppon.png",
-    desc: "Pagina web que busca soluciones",
-    repo: "www.github.com",
+    desc: "Plataforma para busqueda,descarga y compartir imagenes, inicio de sesion con cuenta google utilizando Auth0",
+    repo: "https://github.com/vecarope/viewfinder2",
     link: "www.paginaweb.com",
   },
   {
@@ -28,7 +28,7 @@ const proyect = [
     css:"Tailwind",
     name:'Plataforma DevSafio', 
     img: "/proyect/devsafio.png",
-    desc: "Plataforma para la busqueda de empleo TI, construida en conjunto a un equipo de la Incubadora Desafio Latam.",
+    desc: "Plataforma para la busqueda de empleo TI, registro e inicio de sesion, formulario de postulacion y selección de test tecnicos.",
     repo: "www.github.com",
     link: "https://ctd5-frontend.vercel.app/",
   }

@@ -23,11 +23,13 @@ const TimeLine = () => {
                 Experiencia <br /> <span className="font-bold">Laboral</span>
               </h2>
             </div>
-            <button
-              href="#"
+            <a
+              href="https://linkedin.com/in/vecarope"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex px-4 py-1 md:ml-5 items-center md:px-8 md:py-2 md:text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
             >
-              Perfil LinkedIn{" "}
+              Perfil LinkedIn
               <svg
                 className="w-3 h-3 ml-2"
                 fill="currentColor"
@@ -40,7 +42,7 @@ const TimeLine = () => {
                   clipRule="evenodd"
                 ></path>
               </svg>
-            </button>
+            </a>
           </div>
           <ol className="relative border-l border-gray-200 dark:border-gray-700">
             {experience.map((element) => (

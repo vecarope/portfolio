@@ -16,7 +16,7 @@ interesa formar parte de equipos multidisciplinarios y mi mayor motivación es t
 soluciones innovadoras a sus problemáticas.
 Tengo experiencia en el uso de <strong className="text-[#ffdb58] text-3xl bg-[#9340ff]">Javascript, React.js , Angular, Python, SQL y Django</strong>. Mi creatividad y constancia me
 llevan a aportar ideas y a implementar soluciones desafiantes e innovadoras.<strong className="text-[#ffdb58]"> Soy curiosa y apasionada por las culturas, las
-tecnologías, el diseño, las artes y la fotografía ,</strong> me gusta la vida outdoor, viajar y conocer nuevos lugares.<strong className="text-[#ffdb58]"> Adoradora de perros y de un buen café ,</strong> mas si es mientras codeo...
+tecnologías, el diseño, las artes y la fotografía ,</strong> me gusta la vida outdoor, viajar y conocer nuevos lugares.<strong className="text-[#ffdb58]"> Fans de perros y de un buen café ,</strong> mas si es mientras codeo...
               </p>
 
               <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center rounded-md bg-purple-500 px-10 opacity-0 transition group-hover:opacity-100">
