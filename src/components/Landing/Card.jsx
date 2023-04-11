@@ -68,7 +68,7 @@ const Card = () =>
             <div className="relative bg-purple-400 text-gray-50 p-8 space-y-6 border-4 border-gray-700">
               <div className="bg-[#FBCA1B] h-2 w-20 "></div>
               <div className="mx-0.5 border-4 border-gray-600">
-                <img src={project.img} alt={project.name} />
+                <img src={project.img} alt={project.name} className="max-w-md" />
               </div>
               <p className="text-4xl font-bold text-white">{project.name}</p>
               <p className="leading-snug text-gray-200 text-2xl">
