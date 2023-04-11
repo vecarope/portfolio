@@ -5,7 +5,7 @@ const projects = [
     librery: "React",
     css:"Tailwind",
     name:'ViewFinder', 
-    img: "/projects/viewfinder1.gif",
+    img: "/projects/viewfinder.gif",
     desc: "Plataforma para busqueda,descarga y compartir imagenes, inicio de sesion con cuenta google utilizando Auth0",
     repo: "https://github.com/vecarope/viewfinder2",
     link: "https://viewfinder2.vercel.app/",
