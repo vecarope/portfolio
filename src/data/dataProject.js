@@ -16,7 +16,7 @@ const projects = [
     librery: "React",
     css:"Tailwind",
     name:'Portafolio', 
-    img: "/public/projects/portafolio.png",
+    img: "/projects/portafolio.png",
     desc: 'Portafolio personal, Sobre mi, esperiencia laboral y academica, mis skills, proyectos importantes y galeria fotografica.',
     repo: "https://github.com/vecarope/portfolio",
   },
