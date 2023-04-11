@@ -12,7 +12,7 @@ const projects = [
   },
   {
     id: 2,
-    type: "javasript",
+    type: "javaScript",
     librery: "React",
     css:"Tailwind",
     name:'Portafolio', 
