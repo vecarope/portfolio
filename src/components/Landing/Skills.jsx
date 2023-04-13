@@ -2,7 +2,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import SkillCards from "./SkillCards.jsx";
 
-const SkillsB = () => {
+const Skills = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -65,4 +65,4 @@ const SkillsB = () => {
   );
 };
 
-export default SkillsB;
+export default Skills;

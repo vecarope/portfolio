@@ -55,7 +55,7 @@ const SkillCards = () => {
         {dataSkills
                   .filter( element => element.type === type )
                   .map( element => (
-                    <div className="lg:w-40 md:w-20 w-10" key={element.id}>
+                    <div className="lg:w-35 md:w-20 w-15" key={element.id}>
                       <img src={element.img} alt={element.language} className="md:scale-75" />
                       <p className="text-center text-[9px] lg:text-base">{element.language}</p>
                     </div>

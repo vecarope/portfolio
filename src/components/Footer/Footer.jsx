@@ -25,10 +25,10 @@ const Index = () => {
       </div>
       <nav
         aria-label="Footer Navigation"
-        className="my-auto flex item-center max-w-lg  flex-col gap-6 text-center lg:flex-row sm:text-left"
+        className="my-auto max-w-lg items-center flex-col gap-6 text-center xl:flex-row"
       >
         <a
-          className="text-white lg:text-xl  hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white text-base lg:text-xl mx-2 hover:underline hover:text-yellow-300 hover:decoration-wavy"
           href="https://linkedin.com/in/vecarope"
           target="_blank"
           rel="noreferrer"
@@ -36,7 +36,7 @@ const Index = () => {
           LinkedIn
         </a>
         <a
-          className="text-white lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white text-base  lg:text-xl mx-2 hover:underline hover:text-yellow-300 hover:decoration-wavy"
           href="https://github.com/vecarope"
           target="_blank"
           rel="noreferrer"
@@ -44,7 +44,7 @@ const Index = () => {
           GitHub
         </a>
         <a
-          className="text-white lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white text-base  lg:text-xl mx-2 hover:underline hover:text-yellow-300 hover:decoration-wavy"
           href="https://www.instagram.com/vecarope"
           target="_blank"
           rel="noreferrer"
@@ -52,7 +52,7 @@ const Index = () => {
           Instagram
         </a>
         <a
-          className="text-white lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white text-base mx-2  lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
           href="https://wa.me/56988798635"
           target="_blank"
           rel="noreferrer"
@@ -60,7 +60,7 @@ const Index = () => {
           WhatsApp
         </a>
         <a
-          className="text-white lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white text-base mr-4  lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
           onClick={() => (window.location = "mailto:vecarope@gmail.com")}
         >
           vecarope@gmail.com

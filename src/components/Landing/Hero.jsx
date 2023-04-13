@@ -15,7 +15,7 @@ const Hero = () => {
                 <p className="text-4xl text-[#FBCA1B]">
                   Desarrolladora Web 
                 </p >
-                <p className="text-3xl text-[#FBCA1B]">Fron-End</p>
+                <p className="text-3xl text-[#FBCA1B]">Front-End</p>
               </div>
               <div className="mt-10 flex flex-col items-center md:flex-row">
                 <button
