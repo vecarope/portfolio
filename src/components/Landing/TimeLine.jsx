@@ -9,7 +9,7 @@ const TimeLine = () => {
 
   return (
     <>
-      <div id="time-line" ref={ref} className="mt-10 mx-40 w-screnn">
+      <div id="time-line" ref={ref} className="mt-10 mx-40 w-screnn hidden lg:block">
         <div className="flex mx-5 md:mx-10 mt-30 md:mt-10 justify-start">
           <div className="mx-5 md:mx-10">
             <div

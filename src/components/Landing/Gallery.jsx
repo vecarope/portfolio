@@ -70,7 +70,7 @@ const Gallery = () => {
             key={element.id}
             src={element.img}
             className="mb-4"
-            alt={element.id}
+            alt={element.img}
           />
         ))}
       </div>

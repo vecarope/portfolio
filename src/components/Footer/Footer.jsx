@@ -20,15 +20,15 @@ const Index = () => {
       </div>
       <div className=" grid grid-cols-2 ml-20 w-15">
         <div className="grid-col-1">
-        <p className="text-white text-6xl font-bold">Hablemos...</p>
-        <p className="text-yellow-300 text-2xl">Si quieres saber más sobre mis proyectos y skills,<br/> contactame a través de las siguientes plataformas. </p>
+        <p className="text-white  text-3xl lg:text-6xl font-bold">Hablemos...</p>
+        <p className="text-yellow-300 text-lg lg:text-2xl">Si quieres saber más sobre mis proyectos y skills,<br/> contactame a través de las siguientes plataformas. </p>
       </div>
       <nav
         aria-label="Footer Navigation"
-        className="my-auto flex item-center max-w-lg flex-row gap-6 text-center sm:flex-row sm:text-left"
+        className="my-auto flex item-center max-w-lg  flex-col gap-6 text-center lg:flex-row sm:text-left"
       >
         <a
-          className="text-white text-xl  hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white lg:text-xl  hover:underline hover:text-yellow-300 hover:decoration-wavy"
           href="https://linkedin.com/in/vecarope"
           target="_blank"
           rel="noreferrer"
@@ -36,7 +36,7 @@ const Index = () => {
           LinkedIn
         </a>
         <a
-          className="text-white text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
           href="https://github.com/vecarope"
           target="_blank"
           rel="noreferrer"
@@ -44,7 +44,7 @@ const Index = () => {
           GitHub
         </a>
         <a
-          className="text-white text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
           href="https://www.instagram.com/vecarope"
           target="_blank"
           rel="noreferrer"
@@ -52,7 +52,7 @@ const Index = () => {
           Instagram
         </a>
         <a
-          className="text-white text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
           href="https://wa.me/56988798635"
           target="_blank"
           rel="noreferrer"

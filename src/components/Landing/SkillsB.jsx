@@ -10,7 +10,7 @@ const SkillsB = () => {
     <>
       <div className="grid grid-cols-3 gap-4" id="skills" ref={ref}>
         <div className="grid-span-2">
-          <div className="hidden md:block relative h-96 w-96">
+          <div className="hidden lg:block relative h-96 w-96">
             <div className="h-56 w-56 text-amber-400 absolute -z-10 ml-20 left-20">
               <svg
                 id="patternId"
@@ -56,7 +56,7 @@ const SkillsB = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-2 mr-10">
+        <div className="col-span-3 mx-3 lg:col-span-2 lg:backdrop:mr-10">
           <SkillCards />
         </div>
       </div>

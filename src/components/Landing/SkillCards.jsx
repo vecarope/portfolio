@@ -49,15 +49,15 @@ const SkillCards = () => {
       }}
     >
       {data.map(({ value, desc, type }) => (
-        <TabPanel key={value} value={value} className="border-b-8 border-r-8 border-[#f9cc2a]  text-white text-2xl text-center h-auto w-fit" >
+        <TabPanel key={value} value={value} className="border-b-8 border-r-8 border-[#f9cc2a]  text-white lg:text-2xl text-center h-auto w-fit" >
           {desc}
-          <div className="grid grid-cols-12 gap-2 md:gap-5 md:mx-8 my-5 md:grid-cols-7 items-center">
+          <div className="grid  grid-cols-7  gap-4 md:grid-cols-12 lg:gap-2  lg:mx-8 my-5 lg:grid-cols-7 items-center">
         {dataSkills
                   .filter( element => element.type === type )
                   .map( element => (
-                    <div className="md:w-40" key={element.id}>
+                    <div className="md:w-40 w-16" key={element.id}>
                       <img src={element.img} alt={element.language} className="md:scale-75" />
-                      <p className="text-center">{element.language}</p>
+                      <p className="text-center text-sm lg:text-base">{element.language}</p>
                     </div>
                   ))}
           </div>
