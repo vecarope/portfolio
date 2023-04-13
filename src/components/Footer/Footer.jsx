@@ -18,7 +18,7 @@ const Index = () => {
         />
         </SmoothLink>
       </div>
-      <div className=" grid grid-cols-2 ml-20 w-15">
+      <div className=" grid grid-cols-2 ml-10 lg:ml-20 w-15">
         <div className="grid-col-1">
         <p className="text-white  text-3xl lg:text-6xl font-bold">Hablemos...</p>
         <p className="text-yellow-300 text-lg lg:text-2xl">Si quieres saber más sobre mis proyectos y skills,<br/> contactame a través de las siguientes plataformas. </p>
@@ -60,7 +60,7 @@ const Index = () => {
           WhatsApp
         </a>
         <a
-          className="text-white text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
           onClick={() => (window.location = "mailto:vecarope@gmail.com")}
         >
           vecarope@gmail.com

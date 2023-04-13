@@ -58,9 +58,9 @@ const Gallery = () => {
             </div>
           </div>
         </div>
-        <div className="grid-cols-3 text-4xl">
+        <div className="grid-cols-3 text-lg my-5 lg:text-4xl">
           <p className="text-blue-600 tracking-wide line-clamp-3 leading-relaxed overline">
-            Una de las cosas que mas disfruto, <br/> es la fotografía,<br/>al igual que hacer galerias!
+            Una de las cosas que más disfruto, <br/> es la fotografía,<br/>al igual que hacer galerías!
           </p>
         </div>
       </div>

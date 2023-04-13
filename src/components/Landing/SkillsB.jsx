@@ -52,6 +52,7 @@ const SkillsB = () => {
                 <h2 className="text-3xl text-[#414be3] sm:text-4xl xl:text-5xl">
                   Mis <span className="font-bold">Skills</span>
                 </h2>
+                <p className='text-2xl my-3 text-blue-600 tracking-wide line-clamp-3 leading-relaxed overline'>Selecciona un stack para conocer más detalles...</p>
               </div>
             </div>
           </div>

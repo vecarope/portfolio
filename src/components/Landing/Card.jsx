@@ -58,11 +58,11 @@ const Card = () =>
           </div>
         </div>
       </div>
-      <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
         {projects.map((project) => (
           <div
             key={project.id}
-            className="md:px-2 scale-75 w-auto gap-2 transform hover:scale-90 transition duration-700 ease-out"
+            className="md:px-2 scale-75 w-auto transform hover:scale-90 transition duration-700 ease-out"
           >
             <div className="absolute  h-full w-full "></div>
             <div className="relative bg-purple-400 text-gray-50 p-8 space-y-6  border-[#FBCA1B] border-b-[18px] border-r-[18px]">

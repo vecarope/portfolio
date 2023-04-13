@@ -75,7 +75,7 @@ const TimeLine = () => {
                 }}
               >
                 <h2 className="md:-mx-4 md:pl-8 md:pr-8 pt-4 pb-4 text-2xl text-[#414be3] sm:text-4xl xl:text-5xl">
-                  Formación <br /> <span className="font-bold">Academica</span>
+                  Formación <br /> <span className="font-bold">Académica</span>
                 </h2>
               </div>
             </div>
