@@ -26,9 +26,9 @@ const About = () =>
             </div>
           </div>
         </div>
-        <div className="col-span-2">
+        <div className="hidden lg:block col-span-2">
           <div className="item-center my-12 mr-10 scale-75">
-            <div className="hidden sm:block h-28 w-28 text-gray-300 absolute a-z-10 -right-20 -bottom-20">
+            <div className=" h-28 w-28 text-gray-300 absolute a-z-10 -right-20 -bottom-20">
               <svg
                 id="patternId"
                 width="100%"

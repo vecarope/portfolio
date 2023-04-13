@@ -100,58 +100,6 @@ const TimeLine = () => {
               ))}
             </ol>
             </div>
-          <div className="abg-orange-400 w-fit rounded-[6rem] mx-20 mt-20 overflow-hidden rounded-tl-none rounded-br-none">
-          <motion.div
-          style={{
-            transform: isInView ? "none" : "translateX(-200px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
-          }}
-              animate={{
-                x: 0,
-                y: 0,
-                scale:1,
-              }}
-              className="flex w-96 flex-wrap"
-            >
-          <motion.div
-                animate={{ rotate: 360 }}
-                transition={{
-                  duration: 2,
-                  ease: "linear",
-                  delay: 3,
-                }}
-                className="h-48 w-1/2 rounded-full rounded-br-none bg-[#18C4B8]"
-              ></motion.div>
-              <motion.div
-                animate={{ rotate: 360 }}
-                transition={{
-                  duration: 2,
-                  ease: "linear",
-                  delay: 2,
-                }}
-                className="rounded-[6rem] h-48 w-1/2 rounded-tl-none rounded-br-none bg-purple-400"
-              ></motion.div>
-              <motion.div
-                animate={{ rotate: 360 }}
-                transition={{
-                  duration: 2,
-                  ease: "linear",
-                  delay: 3,
-                }}
-                className="h-48 w-1/2 rounded-full rounded-b-none rounded-br-none bg-[#FBCA1B]"
-              ></motion.div>
-              <motion.div
-                animate={{ rotate: 360 }}
-                transition={{
-                  duration: 2,
-                  ease: "linear",
-                  delay: 3,
-                }}
-                className="h-48 w-1/2 rounded-full rounded-t-none rounded-br-none bg-[#98EFED]"
-              ></motion.div>
-              </motion.div>
-              </div>
           </div>
           <div>
           </div>

@@ -58,17 +58,17 @@ const Card = () =>
           </div>
         </div>
       </div>
-      <div className="flex justify-between flex-col md:flex-row md:mx-20">
+      <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project) => (
           <div
             key={project.id}
             className="md:px-2 scale-75 w-auto gap-2 transform hover:scale-90 transition duration-700 ease-out"
           >
-            <div className="absolute -right-2 -bottom-3 bg-[#FBCA1B] h-full w-full "></div>
-            <div className="relative bg-purple-400 text-gray-50 p-8 space-y-6 border-4 border-gray-700">
+            <div className="absolute  h-full w-full "></div>
+            <div className="relative bg-purple-400 text-gray-50 p-8 space-y-6  border-[#FBCA1B] border-b-[18px] border-r-[18px]">
               <div className="bg-[#FBCA1B] h-2 w-20 "></div>
               <div className="mx-0.5 border-4 border-gray-600">
-                <img src={project.img} alt={project.name} className="max-w-md" />
+                <img src={project.img} alt={project.name} className="w-auto" />
               </div>
               <p className="text-4xl font-bold text-white">{project.name}</p>
               <p className="leading-snug text-gray-200 text-2xl">
