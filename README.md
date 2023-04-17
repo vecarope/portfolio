@@ -23,7 +23,6 @@
 ## Comandos de instalacion:
 ```
 npm install 
-cd portfolio
 npm run dev 
 
 ```
