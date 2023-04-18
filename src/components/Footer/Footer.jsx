@@ -18,17 +18,17 @@ const Index = () => {
         />
         </SmoothLink>
       </div>
-      <div className=" grid grid-cols-2 ml-10 lg:ml-20 w-15">
+      <div className=" grid row md:grid-cols-2 md:mx-10 lg:ml-20 w-15">
         <div className="grid-col-1">
-        <p className="text-white  text-3xl lg:text-6xl font-bold">Hablemos...</p>
-        <p className="text-yellow-300 text-lg lg:text-2xl">Si quieres saber más sobre mis proyectos y skills,<br/> contactame a través de las siguientes plataformas. </p>
+        <p className="text-white  text-2xl lg:text-6xl font-bold">Hablemos...</p>
+        <p className="text-yellow-300 text-md lg:text-2xl">Si quieres saber más sobre mis proyectos y skills,<br/> contactame a través de las siguientes plataformas. </p>
       </div>
       <nav
         aria-label="Footer Navigation"
-        className="my-auto max-w-lg items-center flex-col gap-6 text-center xl:flex-row"
+        className="md:my-5 max-w-lg items-center flex-col gap-6 text-center xl:flex-row"
       >
         <a
-          className="text-white text-base lg:text-xl mx-2 hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white text-xs lg:text-xl mx-1 md:mx-2 hover:underline hover:text-yellow-300 hover:decoration-wavy"
           href="https://linkedin.com/in/vecarope"
           target="_blank"
           rel="noreferrer"
@@ -36,7 +36,7 @@ const Index = () => {
           LinkedIn
         </a>
         <a
-          className="text-white text-base  lg:text-xl mx-2 hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white text-xs lg:text-xl mx-1  md:mx-2 hover:underline hover:text-yellow-300 hover:decoration-wavy"
           href="https://github.com/vecarope"
           target="_blank"
           rel="noreferrer"
@@ -44,7 +44,7 @@ const Index = () => {
           GitHub
         </a>
         <a
-          className="text-white text-base  lg:text-xl mx-2 hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white text-xs lg:text-xl mx-1 md:mx-2 hover:underline hover:text-yellow-300 hover:decoration-wavy"
           href="https://www.instagram.com/vecarope"
           target="_blank"
           rel="noreferrer"
@@ -52,7 +52,7 @@ const Index = () => {
           Instagram
         </a>
         <a
-          className="text-white text-base mx-2  lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white text-xs mx-1 md:mx-2  lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
           href="https://wa.me/56988798635"
           target="_blank"
           rel="noreferrer"
@@ -60,7 +60,7 @@ const Index = () => {
           WhatsApp
         </a>
         <a
-          className="text-white text-base mr-4  lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
+          className="text-white text-xs mx-1 md:mx-2 lg:text-xl hover:underline hover:text-yellow-300 hover:decoration-wavy"
           onClick={() => (window.location = "mailto:vecarope@gmail.com")}
         >
           vecarope@gmail.com

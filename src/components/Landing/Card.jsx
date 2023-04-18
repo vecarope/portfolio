@@ -74,9 +74,21 @@ const Card = () =>
               <p className="leading-snug text-gray-200 text-2xl">
                 {project.desc}
               </p>
-              <p className="text-2xl font-bold">
-                {project.type} - {project.librery} - {project.css}
-              </p>
+              <div className="flex flex-wrap">
+              <span className="bg-purple-100 text-purple-800 text-lg font-medium m-2 px-3 py-1 rounded border-2 border-purple-700">
+                {project.type}
+            
+              </span>
+              <span className="bg-purple-100 text-purple-800 text-lg font-medium m-2 px-3 py-1 rounded border-2 border-purple-700">
+          
+              {project.librery}
+            
+              </span>
+              <span className="bg-purple-100 text-purple-800 text-lg font-medium m-2 px-3 py-1 rounded  border-2 border-purple-700">
+                {project.css}
+            
+              </span>
+              </div>
               <a
                 href={project.repo}
                 target="_blank"
