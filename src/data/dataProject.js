@@ -19,6 +19,7 @@ const projects = [
     img: "/projects/portafolio.png",
     desc: 'Portafolio personal, Sobre mi, experiencia laboral y académica, mis skills, proyectos importantes y galeria fotográfica.',
     repo: "https://github.com/vecarope/portfolio",
+    link: "https://port-vecarope.vercel.app/"
   },
   {
     id: 1,
@@ -32,6 +33,17 @@ const projects = [
     link: "https://viewfinder2.vercel.app/",
   },
   {
+    id: 1,
+    type: "TypeScript",
+    librery: "Angular",
+    css:"Bootstrap 5",
+    name:'POKE APP', 
+    img: "/projects/pokeapp.gif",
+    desc: "Technical Challenge. Aplicación que permite enlistas pokemones con paginación y buscador, seleción de pokemon favorito,POKE-ABC tabla resumen cantidad de pokemones que inicia con cada letra.",
+    repo: "https://github.com/vecarope/PokeAngular",
+    link: "https://poke-angular-git-main-vecarope.vercel.app/",
+  },
+  {
     id: 4,
     type: "JavaScript",
     librery: "Node.js - React",
@@ -40,7 +52,7 @@ const projects = [
     img: "/projects/Aicanvas.png",
     desc: "Plataforma generadora de imágenes, integrando API OPENAI (DALL-E), crea imágenes a través de un texto descriptivo.(Back-end/Front-end).",
     repo: "https://github.com/vecarope/AIcanvas",
-    link: "En proceso de deploy",
+    link: "Sin deploy",
   },
   {
     id: 5,
@@ -50,8 +62,8 @@ const projects = [
     name:'Studio Ghibli Movies', 
     img: "/projects/ghibli.gif",
     desc: 'Plataforma que consume una API de películas del Studio Ghibli, permite al usuario seleccionar y ver información de películas.',
-    repo: "https://vecarope.github.io/studio-Ghibli.github.io/",
-    link:"https://github.com/vecarope/studio-Ghibli.github.io"
+    repo: 'https://github.com/vecarope/studio-Ghibli.github.io',
+    link:"https://vecarope.github.io/studio-Ghibli.github.io/"
   },
   {
     id: 6,
